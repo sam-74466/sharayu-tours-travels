@@ -1,0 +1,32 @@
+export const FLEET = [
+  {
+    id: 1,
+    name: "Sedan",
+    seats: 4,
+    luggage: 2,
+    transmission: "Manual",
+    ac: true,
+    image: "/fleet/sedan.jpg",
+    ratePerKm: 14,
+  },
+  {
+    id: 2,
+    name: "SUV",
+    seats: 6,
+    luggage: 4,
+    transmission: "Manual",
+    ac: true,
+    image: "/fleet/suv.jpg",
+    ratePerKm: 18,
+  },
+  {
+    id: 3,
+    name: "Innova Crysta",
+    seats: 7,
+    luggage: 5,
+    transmission: "Manual",
+    ac: true,
+    image: "/fleet/innova.jpg",
+    ratePerKm: 20,
+  },
+];

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #020617;
+  --card: #111827;
+  --primary: #f59e0b;
+  --secondary: #2563eb;
+  --text: #f8fafc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #f59e0b;
+  color: #000;
+}
